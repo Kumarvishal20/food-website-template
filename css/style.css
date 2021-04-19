@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+.container{
+   
+   padding: 0 15px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+@media(min-width:576px)
+{
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media(min-width:768px)
+{
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media(min-width:992px)
+{
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media(min-width:1200px)
+{
+    .container{
+        max-width: 1152px;
+    }
+}
+header.topbar{
+    background:grey;
+    color: white;
+    padding: 0.3rem 0;
+}
+.auth a{
+    color: white;
+    text-decoration: none;
+}
+.auth{
+    display: flex;
+    
+}
+.icons  img{
+    margin-right: .25rem;
+    
+    
+}
+.auth img{
+    margin-right: .23rem;
+}
+.divider {
+    padding: 0 1rem;
+}
+.top{
+    margin-bottom: 1rem;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+   
+}
+.contact img{
+    margin-right: .6rem;
+}
+.time{
+    display: flex;
+    align-items: center;
+    margin-right: .2rem;
+}
+.time img{
+    margin-right: .6rem;
+}
+.navbar .container {
+    background-color: white;
+     justify-content: center;
+    
+}
+.navbar a{
+ text-decoration: none;
+ color:black;
+ padding: 1.2rem;
+
+}
+ .navbar a:active{
+    background: cornflowerblue;
+    color: white;
+}
+.active{
+    background: cornflowerblue;
+    color: white;
+}
+.navbar a:hover{
+    background: cornflowerblue;
+    color: white;
+    transition: all .3s ease;
+}
+
+.hero{
+    background-image: url(../images/hero.png);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.shadow{
+    margin-top: 30px;
+    position: absolute;
+    left: 170px;
+    z-index: -1;
+    width: 70%;
+}
+
+.heros{
+    display: block;
+     width:33%;
+     position:absolute;
+    margin-left: 12%;
+}
+.welcome{
+    display:flex;
+    margin-top: 6rem;
+}
+
+.logo2{
+    margin-top: -9px;
+    margin-left: 9px;
+}
+.hero button{
+    border: 2px solid;
+    margin-left:.2rem;
+    padding: .4rem;
+
+}
+.lolo{
+    margin-top: 2rem;
+    
+}
+.lolo button{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+.hero h1 span{
+    color: cornflowerblue;
+}
+.straw{
+    margin-left: 35rem;
+    margin-top: -11rem;
+}
+section{
+    background-color: rgba(158, 151, 151, 0.404);
+}
+
+
+.mid h1{
+    text-align: center;
+}
+.mid h1:after{
+   content: "";
+    display: block;
+     margin:0 auto;
+   width:25%;
+   height: 30px;
+   background-image: url(../icons/hr.svg);
+}
+.scrol{
+display: flex;
+margin: 0 auto;
+justify-content: space-evenly;
+width: 80%;
+
+}
+.scrol .img1{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(245, 245, 245);
+    
+}
+.scrol .img1 img{
+    height: 170px;  
+    width: 170px;
+}
+
+.scrol .img2{
+    width: 270px;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(245, 245, 245);;
+    
+}
+.scrol .img2 img{
+    height: 170px;  
+}
+.scrol .img3{
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.scrol .img3 img{
+    height: 170px;  
+}
+.box1{
+    background-color:rgb(245, 245, 245);
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+.box2{
+    background-color:  rgb(245, 245, 245);
+    height: 300px;
+}
+.box3{
+    background-color: rgb(245, 245, 245);
+    height: 300px;
+}
+
+.fresh{
+    background-color:white;
+    width:100%;
+    height:385px;
+    margin-bottom: 1rem;
+    
+}
+.fresh h1{
+    margin-top: 2rem;
+    text-align:center;
+}
+.fresh h1:after{
+    content: "";
+     display: block;
+      margin:0 auto;
+      width:25%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+ }
+ .food{
+     background-color: white;
+     display:flex;
+     width:100%;
+     height:350px;  
+     margin-top: 1rem; 
+ }
+ .yogurt{
+     width:50%;
+    
+ }
+ .yogurt img{
+     margin-left: 8rem;
+     height: 350px;
+
+ }
+ .para{
+     margin-top: 4rem;;
+     display: block;
+     width:40%;
+     
+ }
+ .para h4{
+     
+     margin-bottom: 2rem;;
+ }
+ .para{
+     margin-right:2rem;
+     
+ }
+ .para p{
+     margin-bottom: 2rem;
+ }
+ .service{
+     
+     margin-top: 6rem;
+    width:100%;
+    height:350px;
+    background-color:rgba(158, 151, 151, 0.404);
+ }
+  .inner h1{
+    padding-top: 2rem;
+    text-align:center;
+}
+.inner h1:after{
+    content: "";
+    display: block;
+    margin:0 auto;
+    width:25%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+ }
+ .card{
+     margin-top: 5rem;
+     background-color: white;
+     padding:1rem;
+     text-align: center;
+      width:20%; position: relative;
+      
+ }
+ .card .tran{
+     position: absolute;
+     top:-33px;
+     left:50%;
+     transform: translate(-50%);
+     height:4rem;
+ }
+ .al{
+     display: flex;
+     justify-content: space-evenly;
+     width: 70%;
+     margin-left: 13rem;
+     margin-top: -20px;
+ }
+ .card h3{
+     margin-top: .7rem;
+ }
+ .date{
+     
+    margin-top: 3rem;
+   width:100%;
+   height:350px;
+   background-image: url(../images/);
+}
+.date h2{
+    text-align: center;
+    padding-top: 2rem;
+}
+.date h2:after{
+    content: "";
+    display: block;
+    margin:0 auto;
+    width:25%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+}
+.times{
+  display: flex;
+  justify-content: center;  
+margin-top: 3rem;
+
+}
+.pic{
+    background: linear-gradient(
+        rgba(35,43,0.9),
+        rgba(35,43,56,0.9)
+    ),url(../images/food-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.times div{
+    margin-right: 2rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 0, 0.76);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.times div span:first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 2rem;
+   color: white;
+   margin-bottom: 0.05rem;
+}
+.times div span:last-child{
+      font-size: 2rem;
+      color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+blog{
+    width:100%;
+    height:100%; 
+    background-color: thistle;
+    
+
+}
+section.blog{
+    margin-bottom: 2rem;
+}
+.blog h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.blog h1:after{
+    content: "";
+    display: block;
+    margin:0 auto;
+    width:25%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+}
+.art{
+     display:flex ;
+    width:50%;
+    height:80%;
+    margin-left: 20rem;
+    
+    
+
+}
+.first{
+    margin-bottom:5rem;
+    margin-left:1rem;
+    
+}
+
+.first img {
+    width:100%;
+    height:100%;
+    
+}
+.second{
+    margin-left:4rem;
+    margin-bottom: 5rem;
+}
+.second img{
+    width:100%;
+    height:100%;
+
+}
+.letter{
+    background-color: coral;
+
+}
+.lee{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+.ras img{
+    margin-left: 8rem;
+    width:400px;
+    margin-top: 2rem;
+}
+.lus{
+    margin-left: 2rem;
+}
+.lus h3{
+    margin-top:6rem;
+    margin-bottom: 1rem;
+}
+.lus p{
+    margin-bottom:1rem;
+}
+.main{
+    display: flex;
+    width:100%;
+}
+.right{
+    position: relative;
+    width:100%;
+    background-color: blue; 
+    margin-top: 1rem; 
+}
+.right h1{
+    text-align: center;
+    padding-top: 2rem;
+}
+.right h1:after{
+    content: "";
+    display: block;
+    margin:0 auto;
+    width:25%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+
+}
+.down{
+    display: flex;
+    margin-top: 2rem;  
+    flex-direction: column;
+}
+.down img{
+    width:2rem;
+
+}
+.down div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: white
+}
+.footer{
+    margin-top: 1rem;
+display: flex;
+justify-content: center;
+    width:100%;
+    background-color: rgb(2, 2, 24);
+    color:white;
+}
+.footer div{
+    padding: 15px;
+    width:18%;
+    text-align: center;
+}
+.foot img  {
+  width: 100px;
+}
+
